@@ -1,0 +1,29 @@
+#23
+
+x = int(input("Введите число: "))
+y = int(input("Введите число: "))
+r = int(input("Введите число: "))
+R = int(input("Введите число: "))
+print(r2 < x2 + y2 < R2)
+
+#24
+
+x = int(input("Введите число: "))
+y = int(input("Введите число: "))
+if x > 0 and y > 0:
+    print("1")
+if x < 0 and y > 0:
+    print("2 ")
+if x < 0 and y < 0:
+    print("3")
+if x > 0 and y < 0:
+    print("4 ")
+
+#26
+
+x = int(input("Введите число: "))
+y = int(input("Введите число: "))
+if x > 0 and y > 0 or x < 0 and y > 0:
+    print("координата находится в полуплоскости")
+else:
+    print("нет")
